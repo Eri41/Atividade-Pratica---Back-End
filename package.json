@@ -1,8 +1,32 @@
 {
+  "name": "dj-music-system",
+  "version": "1.0.0",
+  "description": "Sistema de autenticação JWT para DJ Music System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
   "dependencies": {
-    "cors": "^2.8.6",
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1",
-    "jsonwebtoken": "^9.0.3"
-  }
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.22.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eri41/Atividade-Pr-tica---Back-End.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Eri41/Atividade-Pr-tica---Back-End/issues"
+  },
+  "homepage": "https://github.com/Eri41/Atividade-Pr-tica---Back-End#readme"
 }
