@@ -60,7 +60,7 @@ app.listen(3000, () => {
     console.log('Servidor rodando na porta 3000');
 });
 
-// ROTA PARA VER OS USUÁRIOS REGISTRADOS // 
+// ROTA PARA VER OS USUÁRIOS REGISTRADOS (TESTE) // 
 app.get('/usuarios', (req, res) => {
     res.json(users);
 });
