@@ -15,6 +15,7 @@ app.post('/register', (req, res) => {
     const { email, password } = req.body;
     const user = { email, password };
     users.push(user);
+    console.log('Usuário registrado:', user); // UM LOG PARA VER OS USUÁRIOS REGISTRADOS
     res.status(201).send('User registered');
 });
 
