@@ -59,3 +59,8 @@ app.get('/', (req, res) => {
 app.listen(3000, () => {
     console.log('Servidor rodando na porta 3000');
 });
+
+// ROTA PARA VER OS USUÁRIOS REGISTRADOS // 
+app.get('/usuarios', (req, res) => {
+    res.json(users);
+});
